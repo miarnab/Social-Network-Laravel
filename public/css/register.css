@@ -1,0 +1,27 @@
+.container{
+    width: 40%;
+    color: white;
+}
+
+.centerdiv{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#fname,#lname,#email,#dob,#password,#conf_password{
+    border-radius: 50px;
+    height: 50px;
+}
+
+#register{
+    border-radius: 50px;
+}
+
+#register:hover{
+    border-color: red;
+}
+
+.help-text{
+    color: white;
+}
