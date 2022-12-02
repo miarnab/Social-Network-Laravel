@@ -15,7 +15,7 @@ class Authenticate extends Middleware
      * @param  \Illuminate\Http\Request  $request
      * @return string|null
      */
-    public function handle($request, Closure $next, $guard=null)
+    public function handle($request, Closure $next, ...$guard)
     {
 
         if(Auth::guard($guard)->guest())
